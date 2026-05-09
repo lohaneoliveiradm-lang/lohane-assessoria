@@ -1,0 +1,54 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $off-white;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    background-color: transparent;
+
+
+    .logo {
+        font-size: 24px;
+        font-weight: 800;
+        text-decoration: none;
+
+        span {
+            color: $primary-color;
+        }
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        ul {
+            display: flex;
+            gap: 24px;
+            color: $white-60;
+
+            a {
+                font-size: 16px;
+                text-decoration: none;
+                font-weight: 500;
+                transition: 300ms ease-in-out;
+
+                &:hover {
+                    color: $off-white;
+                }
+            }
+        }
+
+
+    }
+
+    @media (max-width: 900px) {
+        .nav-links {
+            display: none;
+        }
+    }
+}

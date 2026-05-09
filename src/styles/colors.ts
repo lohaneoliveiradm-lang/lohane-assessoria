@@ -1,0 +1,18 @@
+export const colors = {
+    primary: "#A66352",
+    secondary: "#D1BBAF",
+    tertiary: "#975c4d",
+    quaternary: "#A76352",
+    bgColor: "#090e1a",
+    bgCard: "#0F1524",
+    offWhite: "#F8F1ED",
+    white: "#f1f5f9",
+    white60: "#FFFFFF99",
+    borderCard: "#A763524D",
+    hoverButton: "#9E5F4F1B",
+    ebonyClay: "#20283C",
+    steelBlue: "#7588A3",
+    terracota: "#A763521A",
+    bgImage: "#5d4f50",
+    dividerColor: "#f8f1ed17",
+}
