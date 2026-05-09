@@ -16,6 +16,7 @@ export const MainButton = ({ children, ...props }: MainButtonProps) => {
                 backgroundColor: colors.quaternary,
                 padding: "6px 12px",
                 borderRadius: "6px",
+                fontSize: { xs: "14px", sm: "16px", md: "18px" },
                 textTransform: "none",
                 "&:hover": {
                     backgroundColor: colors.tertiary,
