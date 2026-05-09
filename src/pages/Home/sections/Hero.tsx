@@ -80,6 +80,7 @@ export const Hero = () => {
                                 sx={{
                                     color: colors.white,
                                     borderColor: colors.borderCard,
+                                    fontSize: { xs: "14px", sm: "16px", md: "18px" },
                                     ":hover": {
                                         backgroundColor: colors.hoverButton,
                                     },
