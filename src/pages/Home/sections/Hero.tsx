@@ -2,7 +2,7 @@ import { MainButton } from "../../../components/MainButton";
 import { colors } from "../../../styles/colors";
 import "./Hero.scss";
 import { Box, Button, Container, Link, Typography } from "@mui/material";
-import LohaneDesktop from "../../../assets/lohane-desktop-2.png";
+import LohaneDesktop from "../../../assets/lohane-desktop.png";
 
 export const Hero = () => {
     return (

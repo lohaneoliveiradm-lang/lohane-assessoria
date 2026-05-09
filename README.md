@@ -1,3 +1,50 @@
+<!-- Banner institucional opcional aqui -->
+
+# Lohane Assessoria
+
+> Contabilidade moderna, descomplicada e focada no crescimento do seu negócio.
+
+## Sobre o Projeto
+
+Este repositório contém o código-fonte do site institucional da **Lohane Assessoria**, desenvolvido em React + TypeScript + Vite.
+
+O site apresenta:
+- Página inicial com seções de destaque (Hero, Serviços, Sobre)
+- Layout responsivo e moderno
+- Contato via WhatsApp
+- Componentes reutilizáveis
+
+## Tecnologias Utilizadas
+- React
+- TypeScript
+- Vite
+- MUI (Material UI)
+- SCSS Modules
+
+## Como rodar localmente
+
+1. Instale as dependências:
+  ```bash
+  npm install
+  ```
+2. Rode o projeto:
+  ```bash
+  npm run dev
+  ```
+3. Acesse em [http://localhost:5173](http://localhost:5173)
+
+## Estrutura de Pastas
+- `src/pages/Home` — Página principal e seções
+- `src/components` — Componentes reutilizáveis
+- `src/layouts` — Layouts como Header e Footer
+- `src/styles` — Estilos globais e variáveis
+
+## Contato
+Para dúvidas ou serviços contábeis, entre em contato:
+- WhatsApp: [21 97456-7004](https://wa.me/5521974567004)
+
+---
+Desenvolvido com ❤️ por Gustavo Bento
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
